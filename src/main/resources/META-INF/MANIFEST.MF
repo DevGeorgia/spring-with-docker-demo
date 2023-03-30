@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Main-Class: gg.company.springwithdocker.SpringWithDockerApplication
+Class-Path: jackson-core-2.14.2.jar spring-web-6.0.7.jar tomcat-embed-we
+ bsocket-10.1.7.jar logback-core-1.4.6.jar jackson-databind-2.14.2.jar t
+ omcat-embed-core-10.1.7.jar spring-boot-autoconfigure-3.0.5.jar jakarta
+ .annotation-api-2.1.1.jar thymeleaf-3.1.1.RELEASE.jar micrometer-observ
+ ation-1.10.5.jar spring-boot-starter-tomcat-3.0.5.jar spring-boot-start
+ er-json-3.0.5.jar spring-webmvc-6.0.7.jar log4j-to-slf4j-2.19.0.jar spr
+ ing-boot-starter-web-3.0.5.jar spring-boot-starter-thymeleaf-3.0.5.jar 
+ thymeleaf-spring6-3.1.1.RELEASE.jar log4j-api-2.19.0.jar unbescape-1.1.
+ 6.RELEASE.jar jackson-module-parameter-names-2.14.2.jar jackson-datatyp
+ e-jdk8-2.14.2.jar spring-beans-6.0.7.jar spring-boot-starter-logging-3.
+ 0.5.jar jackson-annotations-2.14.2.jar spring-boot-starter-3.0.5.jar sp
+ ring-boot-3.0.5.jar snakeyaml-1.33.jar spring-aop-6.0.7.jar tomcat-embe
+ d-el-10.1.7.jar spring-context-6.0.7.jar attoparser-2.0.6.RELEASE.jar m
+ icrometer-commons-1.10.5.jar spring-jcl-6.0.7.jar jackson-datatype-jsr3
+ 10-2.14.2.jar logback-classic-1.4.6.jar slf4j-api-2.0.7.jar spring-expr
+ ession-6.0.7.jar jul-to-slf4j-2.0.7.jar spring-core-6.0.7.jar
+
