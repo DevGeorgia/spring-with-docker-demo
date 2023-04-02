@@ -1,0 +1,23 @@
+version: '3.1'
+services:
+  db:
+    image: mysql:5.7
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: powerpass
+      MYSQL_DATABASE: demo
+      MYSQL_USER: springuser
+      MYSQL_PASSWORD: springpass
+
+  spring-demo:
+    depends_on:
+      - db
+    image: hub_username/spring-with-docker-demo:latest
+    ports:
+      - "8000:80"
+    restart: always
+
+volumes:
+  db_data: {}
